@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+
+*{
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #15161B;
+}
+
+.cabecalho{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-conteudo{
+    color: white;
+}
+
+.cabecalho-conteudo span{
+    color: #1A7993;
+    line-height: 130px;
+}
+
+
+/*conteudo1*/
+
+.conteudo{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.conteudo-cabecalho{
+    padding-right: 100px;
+}
+
+.conteudo-h2{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Oswald';
+}
+
+.conteudo-paragrafo{
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.conteudo-botao{
+    background-color: #1A7993;
+    color: white;
+    line-height: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.5s;
+}
+
+.conteudo-botao:hover{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 53px;
+    padding-right: 53px;
+    background-color: #2594b3;
+}
+
+.conteudo-imagem img{
+    border-radius: 0px;
+    width: 500px;
+    height: auto;
+}
+
+/*CARDS*/
+
+.section-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pai-cards{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section-cards-h1{
+    font-size: 13px;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 15px;
+    height: 180px;
+    width: 200px;
+    background-color: #2C2F37;
+    transition: 0.1s;
+}
+
+.cards:hover{
+    background: #1A7993;
+}
+
+.cards img{
+    width: 60px;
+}
+
+/*Container*/
+
+.container{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1A7993;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.container-cabecalho{
+    margin-right: 100px;
+}
+
+
+.container-h1{
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.container-p{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+
+.container-botao{
+    color: black;
+    background-color: white;
+    line-height: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    transition: 0.5s;
+}
+
+.container-botao:hover{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 93px;
+    padding-right: 93px;
+    background-color: rgb(233, 233, 233);
+}
+
+
+.container img{
+    margin-top: 5px;
+    width: 300px;
+    height: 350px;
+}
+
+/*Cadastro*/
+
+.cadrasto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.cadrasto h1{
+    text-align: center;
+}
+.cadrasto form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.cadrasto input{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 300px;
+    margin-top: 15px;
+    outline: none;
+    font-family: 'Oswald';
+}
+
+input::placeholder{
+   color: black; 
+   text-transform: uppercase;
+
+}
+
+input[type = "submit"]{
+    background-color: #1A7993;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+input[type = "submit"]:hover{
+    
+    background-color: #176b83;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+.footer img{
+    margin-top: 10px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-h2{
+    font-size: 17px;
+    color: white;
+}
