@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #15161B;
+    background-color: #1f0405;
 }
 
 .cabecalho{
@@ -24,7 +24,7 @@ body{
 }
 
 .cabecalho-conteudo span{
-    color: #1A7993;
+    color: #CC1F2D;
     line-height: 130px;
 }
 
@@ -55,7 +55,7 @@ body{
 }
 
 .conteudo-botao{
-    background-color: #1A7993;
+    background-color: #CC1F2D;
     color: white;
     line-height: 130px;
     padding-top: 15px;
@@ -70,7 +70,7 @@ body{
     padding-bottom: 18px;
     padding-left: 53px;
     padding-right: 53px;
-    background-color: #2594b3;
+    background-color: #FF5233;
 }
 
 .conteudo-imagem img{
@@ -111,12 +111,12 @@ body{
     margin-left: 15px;
     height: 180px;
     width: 200px;
-    background-color: #2C2F37;
+    background-color: #2c2f371e;
     transition: 0.1s;
 }
 
 .cards:hover{
-    background: #1A7993;
+    background: #CC1F2D;
 }
 
 .cards img{
@@ -130,7 +130,7 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    background-color: #1A7993;
+    background-color: #cc1f2db9;
     margin-bottom: 100px;
     align-items: center;
 }
@@ -215,7 +215,7 @@ input::placeholder{
 }
 
 input[type = "submit"]{
-    background-color: #1A7993;
+    background-color: #CC1F2D;
     color: white;
     padding: 20px;
     font-size: 20px;
@@ -225,7 +225,7 @@ input[type = "submit"]{
 
 input[type = "submit"]:hover{
     
-    background-color: #176b83;
+    background-color: #FF5233;
 }
 .footer{
     display: flex;
